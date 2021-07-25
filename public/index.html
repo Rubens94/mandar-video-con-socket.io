@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emitir el video a visualizar</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>Emisión en directo</h1>
+    <button id="btn">Emitir</button>
+    <video src="" id="video" style="width: 800px; height: 600px;" autoplay="true"></video>
+    <canvas id="preview"></canvas>
+    <div class="status"></div>
+
+    <script src="./js/emisor.js"></script>
+</body>
+</html>
